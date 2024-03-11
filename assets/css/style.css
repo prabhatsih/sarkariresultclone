@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0px 200px;
+}
+/* Header Section Start */
+.header{
+    width: 100%;
+    height: 175px;
+    color: #fff;
+    background: #AB183D;
+}
+.header .logo{
+    width: 10%;
+    float: left;
+    padding: 10px;
+    padding-left: 15px;
+}
+.header .text{
+    width: 90%;
+    float: left;
+    text-align: center;
+}
+.header .text h1{
+    font-size: 45px;
+    padding-top: 40px;
+}
+/* Header Section End */
+
+/* Navbar Section Start */
+.navbar{
+    width: 100%;
+    background: #000;
+}
+.navbar ul li{
+    padding: 18px 35px;
+    display: inline-block;
+    border-left: 1px solid #fff;
+}
+.navbar ul li a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* Navbar Section End */
+
+/* Hero Section Start */
+.hero{
+    margin: 30px 0px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 22px;
+}
+.hero p{
+    color: #ff0000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero .tools{
+    margin-top: 30px;
+    background-color: blue;
+    margin-left: 37%;
+    padding-top: 12px;
+    width: 300px;
+    height: 50px;
+}
+.hero .tools h1{color:#fff;}
+.hero table tr td{
+    width: 25%;
+    height: 60px;
+    padding: 0px 20px;
+}
+.hero table tr td a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Hero Section End */
+
+/* Main Section Start */
+.main .result, 
+.main .admitcard, 
+.main .latestjob{
+    width: 32%;
+    float: left;
+    border: 2px solid #d2691e;
+}
+.main .result, 
+.main .admitcard{
+    margin-right: 2%;
+}
+.main h2{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    padding: 3px 0px;
+    background: #AB183D;
+}
+.main ul li{
+    padding: 10px 0px 10px 40px;
+    list-style-position: inside;
+}
+/* Main Section End */
